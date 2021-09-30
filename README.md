@@ -21,7 +21,7 @@ ___
 
 #### How it works
 This script chooses between 14 random phrases from the **'messages.txt'** file. And it appends a random 'Jeff Bezos'-themed meme from Giphy.
-Thanks to the Schedule module, this script executes everyday at 17:00 UTC+0.
+Thanks to the Schedule module, this script executes everyday at 19:00 UTC+0.
 ___
 
 #### Configure
@@ -29,8 +29,6 @@ You can edit or add more phrases in the **'messages.txt'** file if you want.
 
 If you want to change the targeted Twitter user, head to *line 29* in the **'main.py'** file and edit the name you want.
 For changing the Giphy memes, just jump to *line 20*. 
-
-In the **'timer.py'** at *line 11*, you can adjust the timing of the script. Check the [Schedule documentation] for more information.
 
 [Schedule documentation]: https://schedule.readthedocs.io/en/stable/
 ___
